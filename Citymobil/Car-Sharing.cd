@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Comment CommentText="1">
+    <Position X="7.559" Y="16.042" Height="0.291" Width="0.7" />
+  </Comment>
+  <Comment CommentText="0..1">
+    <Position X="6.132" Y="18.34" Height="0.291" Width="0.7" />
+  </Comment>
+  <Comment CommentText="0..1">
+    <Position X="3.519" Y="16.458" Height="0.291" Width="0.7" />
+  </Comment>
+  <Class Name="Citymobil.Fahrzeug">
+    <Position X="2.25" Y="12" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAgAAAAAAgAAgAAIAAAAAAEAEAAAAIQAA=</HashCode>
+      <FileName>Fahrzeug.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Citymobil.Mitglied">
+    <Position X="8.25" Y="16.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Mitglied.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Citymobil.Buchung">
+    <Position X="5.5" Y="14" Width="2" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAACAIAAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Buchung.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="fahrzeugPKW" />
+      <Property Name="fahrzeugTransporter" />
+      <Property Name="mitglied" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Citymobil.Suche">
+    <Position X="5.25" Y="12" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAoAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>Suche.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Citymobil.PKW">
+    <Position X="2" Y="17" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PKW.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Citymobil.Transporter">
+    <Position X="4" Y="17.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAQAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Transporter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
